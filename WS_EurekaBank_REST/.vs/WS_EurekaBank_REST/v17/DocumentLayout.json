@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\controllers\\depositscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\controllers\\depositscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\controllers\\movementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\controllers\\movementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|c:\\users\\santy\\documents\\arquitecturasoftware\\u1\\eurekabank_rest_dotnet\\01_servidor\\ws_eurekabank_rest\\ws_eurekabank_rest\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\services\\movementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\services\\movementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\scripts\\jquery-3.7.0.intellisense.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\scripts\\jquery-3.7.0.intellisense.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\ws_eurekabank_rest\\models\\eurekadb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA7CDA7-60BC-4241-9CBB-DC79A9AE1E1E}|WS_EurekaBank_REST\\WS_EurekaBank_REST.csproj|solutionrelative:ws_eurekabank_rest\\models\\eurekadb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T04:29:50.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Services\\AccountService.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:04:58.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovementService.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Services\\MovementService.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Services\\MovementService.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Services\\MovementService.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Services\\MovementService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:15:22.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T04:30:13.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepositsController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Controllers\\DepositsController.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Controllers\\DepositsController.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Controllers\\DepositsController.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Controllers\\DepositsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwCEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:13:56.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovementsController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Controllers\\MovementsController.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Controllers\\MovementsController.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Controllers\\MovementsController.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Controllers\\MovementsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:14:14.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Web.config",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Web.config",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Web.config",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Web.config",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-09T18:25:19.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T18:25:04.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Global.asax.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:46:36.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:15:42.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "jquery-3.7.0.intellisense.js",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Scripts\\jquery-3.7.0.intellisense.js",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Scripts\\jquery-3.7.0.intellisense.js",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Scripts\\jquery-3.7.0.intellisense.js",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Scripts\\jquery-3.7.0.intellisense.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-09T05:04:55.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T04:32:27.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EurekaDB.Context.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Models\\EurekaDB.Context.cs",
+              "RelativeDocumentMoniker": "WS_EurekaBank_REST\\Models\\EurekaDB.Context.cs",
+              "ToolTip": "C:\\Users\\santy\\Documents\\ArquitecturaSoftware\\U1\\EUREKABANK_REST_DOTNET\\01_SERVIDOR\\WS_EurekaBank_REST\\WS_EurekaBank_REST\\Models\\EurekaDB.Context.cs",
+              "RelativeToolTip": "WS_EurekaBank_REST\\Models\\EurekaDB.Context.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:31:52.928Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

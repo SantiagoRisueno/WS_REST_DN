@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EUREKABANKModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Asignado">
+    <Key>
+      <PropertyRef Name="chr_asigcodigo" />
+    </Key>
+    <Property Name="chr_asigcodigo" Type="char" MaxLength="6" Nullable="false" />
+    <Property Name="chr_sucucodigo" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="chr_emplcodigo" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="dtt_asigfechaalta" Type="datetime" Nullable="false" />
+    <Property Name="dtt_asigfechabaja" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CargoMantenimiento">
+    <Key>
+      <PropertyRef Name="chr_monecodigo" />
+    </Key>
+    <Property Name="chr_monecodigo" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="dec_cargMontoMaximo" Type="money" Nullable="false" />
+    <Property Name="dec_cargImporte" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="chr_cliecodigo" />
+    </Key>
+    <Property Name="chr_cliecodigo" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="vch_cliepaterno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="vch_cliematerno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="vch_clienombre" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="chr_cliedni" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="vch_clieciudad" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="vch_cliedireccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vch_clietelefono" Type="varchar" MaxLength="20" />
+    <Property Name="vch_clieemail" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Contador">
+    <Key>
+      <PropertyRef Name="vch_conttabla" />
+    </Key>
+    <Property Name="vch_conttabla" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="int_contitem" Type="int" Nullable="false" />
+    <Property Name="int_contlongitud" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CostoMovimiento">
+    <Key>
+      <PropertyRef Name="chr_monecodigo" />
+    </Key>
+    <Property Name="chr_monecodigo" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="dec_costimporte" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cuenta">
+    <Key>
+      <PropertyRef Name="chr_cuencodigo" />
+    </Key>
+    <Property Name="chr_cuencodigo" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="chr_monecodigo" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="chr_sucucodigo" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="chr_emplcreacuenta" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="chr_cliecodigo" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="dec_cuensaldo" Type="money" Nullable="false" />
+    <Property Name="dtt_cuenfechacreacion" Type="datetime" Nullable="false" />
+    <Property Name="vch_cuenestado" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="int_cuencontmov" Type="int" Nullable="false" />
+    <Property Name="chr_cuenclave" Type="char" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="chr_emplcodigo" />
+    </Key>
+    <Property Name="chr_emplcodigo" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="vch_emplpaterno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="vch_emplmaterno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="vch_emplnombre" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="vch_emplciudad" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="vch_empldireccion" Type="varchar" MaxLength="50" />
+    <Property Name="vch_emplusuario" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="vch_emplclave" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InteresMensual">
+    <Key>
+      <PropertyRef Name="chr_monecodigo" />
+    </Key>
+    <Property Name="chr_monecodigo" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="dec_inteimporte" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="chr_monecodigo" />
+    </Key>
+    <Property Name="chr_monecodigo" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="vch_monedescripcion" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Movimiento">
+    <Key>
+      <PropertyRef Name="chr_cuencodigo" />
+      <PropertyRef Name="int_movinumero" />
+    </Key>
+    <Property Name="chr_cuencodigo" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="int_movinumero" Type="int" Nullable="false" />
+    <Property Name="dtt_movifecha" Type="datetime" Nullable="false" />
+    <Property Name="chr_emplcodigo" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="chr_tipocodigo" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="dec_moviimporte" Type="money" Nullable="false" />
+    <Property Name="chr_cuenreferencia" Type="char" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Parametro">
+    <Key>
+      <PropertyRef Name="chr_paracodigo" />
+    </Key>
+    <Property Name="chr_paracodigo" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="vch_paradescripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vch_paravalor" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="vch_paraestado" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sucursal">
+    <Key>
+      <PropertyRef Name="chr_sucucodigo" />
+    </Key>
+    <Property Name="chr_sucucodigo" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="vch_sucunombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="vch_sucuciudad" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="vch_sucudireccion" Type="varchar" MaxLength="50" />
+    <Property Name="int_sucucontcuenta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoMovimiento">
+    <Key>
+      <PropertyRef Name="chr_tipocodigo" />
+    </Key>
+    <Property Name="chr_tipocodigo" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="vch_tipodescripcion" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="vch_tipoaccion" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="vch_tipoestado" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_asignado_empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Asignado" Type="Self.Asignado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="chr_emplcodigo" />
+      </Principal>
+      <Dependent Role="Asignado">
+        <PropertyRef Name="chr_emplcodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_asignado_sucursal">
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="1" />
+    <End Role="Asignado" Type="Self.Asignado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sucursal">
+        <PropertyRef Name="chr_sucucodigo" />
+      </Principal>
+      <Dependent Role="Asignado">
+        <PropertyRef Name="chr_sucucodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cargomantenimiento_moneda">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="CargoMantenimiento" Type="Self.CargoMantenimiento" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="chr_monecodigo" />
+      </Principal>
+      <Dependent Role="CargoMantenimiento">
+        <PropertyRef Name="chr_monecodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_costomovimiento_moneda">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="CostoMovimiento" Type="Self.CostoMovimiento" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="chr_monecodigo" />
+      </Principal>
+      <Dependent Role="CostoMovimiento">
+        <PropertyRef Name="chr_monecodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cuenta_cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="chr_cliecodigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="chr_cliecodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cuenta_moneda">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="chr_monecodigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="chr_monecodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cuenta_sucursal">
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sucursal">
+        <PropertyRef Name="chr_sucucodigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="chr_sucucodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cuente_empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="chr_emplcodigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="chr_emplcreacuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_interesmensual_moneda">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="InteresMensual" Type="Self.InteresMensual" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="chr_monecodigo" />
+      </Principal>
+      <Dependent Role="InteresMensual">
+        <PropertyRef Name="chr_monecodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_movimiento_cuenta">
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="1" />
+    <End Role="Movimiento" Type="Self.Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="chr_cuencodigo" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="chr_cuencodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_movimiento_empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="Movimiento" Type="Self.Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="chr_emplcodigo" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="chr_emplcodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_movimiento_tipomovimiento">
+    <End Role="TipoMovimiento" Type="Self.TipoMovimiento" Multiplicity="1" />
+    <End Role="Movimiento" Type="Self.Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoMovimiento">
+        <PropertyRef Name="chr_tipocodigo" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="chr_tipocodigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EUREKABANKModelStoreContainer">
+    <EntitySet Name="Asignado" EntityType="Self.Asignado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CargoMantenimiento" EntityType="Self.CargoMantenimiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contador" EntityType="Self.Contador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CostoMovimiento" EntityType="Self.CostoMovimiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cuenta" EntityType="Self.Cuenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InteresMensual" EntityType="Self.InteresMensual" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Moneda" EntityType="Self.Moneda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Movimiento" EntityType="Self.Movimiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parametro" EntityType="Self.Parametro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sucursal" EntityType="Self.Sucursal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoMovimiento" EntityType="Self.TipoMovimiento" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_asignado_empleado" Association="Self.fk_asignado_empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Asignado" EntitySet="Asignado" />
+    </AssociationSet>
+    <AssociationSet Name="fk_asignado_sucursal" Association="Self.fk_asignado_sucursal">
+      <End Role="Sucursal" EntitySet="Sucursal" />
+      <End Role="Asignado" EntitySet="Asignado" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cargomantenimiento_moneda" Association="Self.fk_cargomantenimiento_moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="CargoMantenimiento" EntitySet="CargoMantenimiento" />
+    </AssociationSet>
+    <AssociationSet Name="fk_costomovimiento_moneda" Association="Self.fk_costomovimiento_moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="CostoMovimiento" EntitySet="CostoMovimiento" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cuenta_cliente" Association="Self.fk_cuenta_cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cuenta_moneda" Association="Self.fk_cuenta_moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cuenta_sucursal" Association="Self.fk_cuenta_sucursal">
+      <End Role="Sucursal" EntitySet="Sucursal" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cuente_empleado" Association="Self.fk_cuente_empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_interesmensual_moneda" Association="Self.fk_interesmensual_moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="InteresMensual" EntitySet="InteresMensual" />
+    </AssociationSet>
+    <AssociationSet Name="fk_movimiento_cuenta" Association="Self.fk_movimiento_cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Movimiento" EntitySet="Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="fk_movimiento_empleado" Association="Self.fk_movimiento_empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Movimiento" EntitySet="Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="fk_movimiento_tipomovimiento" Association="Self.fk_movimiento_tipomovimiento">
+      <End Role="TipoMovimiento" EntitySet="TipoMovimiento" />
+      <End Role="Movimiento" EntitySet="Movimiento" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

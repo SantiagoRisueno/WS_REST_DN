@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EUREKABANKModelStoreContainer" CdmEntityContainer="EUREKABANKEntities">
+    <EntitySetMapping Name="Asignado">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Asignado">
+        <MappingFragment StoreEntitySet="Asignado">
+          <ScalarProperty Name="chr_asigcodigo" ColumnName="chr_asigcodigo" />
+          <ScalarProperty Name="chr_sucucodigo" ColumnName="chr_sucucodigo" />
+          <ScalarProperty Name="chr_emplcodigo" ColumnName="chr_emplcodigo" />
+          <ScalarProperty Name="dtt_asigfechaalta" ColumnName="dtt_asigfechaalta" />
+          <ScalarProperty Name="dtt_asigfechabaja" ColumnName="dtt_asigfechabaja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargoMantenimiento">
+      <EntityTypeMapping TypeName="EUREKABANKModel.CargoMantenimiento">
+        <MappingFragment StoreEntitySet="CargoMantenimiento">
+          <ScalarProperty Name="chr_monecodigo" ColumnName="chr_monecodigo" />
+          <ScalarProperty Name="dec_cargMontoMaximo" ColumnName="dec_cargMontoMaximo" />
+          <ScalarProperty Name="dec_cargImporte" ColumnName="dec_cargImporte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="chr_cliecodigo" ColumnName="chr_cliecodigo" />
+          <ScalarProperty Name="vch_cliepaterno" ColumnName="vch_cliepaterno" />
+          <ScalarProperty Name="vch_cliematerno" ColumnName="vch_cliematerno" />
+          <ScalarProperty Name="vch_clienombre" ColumnName="vch_clienombre" />
+          <ScalarProperty Name="chr_cliedni" ColumnName="chr_cliedni" />
+          <ScalarProperty Name="vch_clieciudad" ColumnName="vch_clieciudad" />
+          <ScalarProperty Name="vch_cliedireccion" ColumnName="vch_cliedireccion" />
+          <ScalarProperty Name="vch_clietelefono" ColumnName="vch_clietelefono" />
+          <ScalarProperty Name="vch_clieemail" ColumnName="vch_clieemail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contador">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Contador">
+        <MappingFragment StoreEntitySet="Contador">
+          <ScalarProperty Name="vch_conttabla" ColumnName="vch_conttabla" />
+          <ScalarProperty Name="int_contitem" ColumnName="int_contitem" />
+          <ScalarProperty Name="int_contlongitud" ColumnName="int_contlongitud" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CostoMovimiento">
+      <EntityTypeMapping TypeName="EUREKABANKModel.CostoMovimiento">
+        <MappingFragment StoreEntitySet="CostoMovimiento">
+          <ScalarProperty Name="chr_monecodigo" ColumnName="chr_monecodigo" />
+          <ScalarProperty Name="dec_costimporte" ColumnName="dec_costimporte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cuenta">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Cuenta">
+        <MappingFragment StoreEntitySet="Cuenta">
+          <ScalarProperty Name="chr_cuencodigo" ColumnName="chr_cuencodigo" />
+          <ScalarProperty Name="chr_monecodigo" ColumnName="chr_monecodigo" />
+          <ScalarProperty Name="chr_sucucodigo" ColumnName="chr_sucucodigo" />
+          <ScalarProperty Name="chr_emplcreacuenta" ColumnName="chr_emplcreacuenta" />
+          <ScalarProperty Name="chr_cliecodigo" ColumnName="chr_cliecodigo" />
+          <ScalarProperty Name="dec_cuensaldo" ColumnName="dec_cuensaldo" />
+          <ScalarProperty Name="dtt_cuenfechacreacion" ColumnName="dtt_cuenfechacreacion" />
+          <ScalarProperty Name="vch_cuenestado" ColumnName="vch_cuenestado" />
+          <ScalarProperty Name="int_cuencontmov" ColumnName="int_cuencontmov" />
+          <ScalarProperty Name="chr_cuenclave" ColumnName="chr_cuenclave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empleado">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="chr_emplcodigo" ColumnName="chr_emplcodigo" />
+          <ScalarProperty Name="vch_emplpaterno" ColumnName="vch_emplpaterno" />
+          <ScalarProperty Name="vch_emplmaterno" ColumnName="vch_emplmaterno" />
+          <ScalarProperty Name="vch_emplnombre" ColumnName="vch_emplnombre" />
+          <ScalarProperty Name="vch_emplciudad" ColumnName="vch_emplciudad" />
+          <ScalarProperty Name="vch_empldireccion" ColumnName="vch_empldireccion" />
+          <ScalarProperty Name="vch_emplusuario" ColumnName="vch_emplusuario" />
+          <ScalarProperty Name="vch_emplclave" ColumnName="vch_emplclave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InteresMensual">
+      <EntityTypeMapping TypeName="EUREKABANKModel.InteresMensual">
+        <MappingFragment StoreEntitySet="InteresMensual">
+          <ScalarProperty Name="chr_monecodigo" ColumnName="chr_monecodigo" />
+          <ScalarProperty Name="dec_inteimporte" ColumnName="dec_inteimporte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Moneda">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Moneda">
+        <MappingFragment StoreEntitySet="Moneda">
+          <ScalarProperty Name="chr_monecodigo" ColumnName="chr_monecodigo" />
+          <ScalarProperty Name="vch_monedescripcion" ColumnName="vch_monedescripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movimiento">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Movimiento">
+        <MappingFragment StoreEntitySet="Movimiento">
+          <ScalarProperty Name="chr_cuencodigo" ColumnName="chr_cuencodigo" />
+          <ScalarProperty Name="int_movinumero" ColumnName="int_movinumero" />
+          <ScalarProperty Name="dtt_movifecha" ColumnName="dtt_movifecha" />
+          <ScalarProperty Name="chr_emplcodigo" ColumnName="chr_emplcodigo" />
+          <ScalarProperty Name="chr_tipocodigo" ColumnName="chr_tipocodigo" />
+          <ScalarProperty Name="dec_moviimporte" ColumnName="dec_moviimporte" />
+          <ScalarProperty Name="chr_cuenreferencia" ColumnName="chr_cuenreferencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametro">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Parametro">
+        <MappingFragment StoreEntitySet="Parametro">
+          <ScalarProperty Name="chr_paracodigo" ColumnName="chr_paracodigo" />
+          <ScalarProperty Name="vch_paradescripcion" ColumnName="vch_paradescripcion" />
+          <ScalarProperty Name="vch_paravalor" ColumnName="vch_paravalor" />
+          <ScalarProperty Name="vch_paraestado" ColumnName="vch_paraestado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sucursal">
+      <EntityTypeMapping TypeName="EUREKABANKModel.Sucursal">
+        <MappingFragment StoreEntitySet="Sucursal">
+          <ScalarProperty Name="chr_sucucodigo" ColumnName="chr_sucucodigo" />
+          <ScalarProperty Name="vch_sucunombre" ColumnName="vch_sucunombre" />
+          <ScalarProperty Name="vch_sucuciudad" ColumnName="vch_sucuciudad" />
+          <ScalarProperty Name="vch_sucudireccion" ColumnName="vch_sucudireccion" />
+          <ScalarProperty Name="int_sucucontcuenta" ColumnName="int_sucucontcuenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoMovimiento">
+      <EntityTypeMapping TypeName="EUREKABANKModel.TipoMovimiento">
+        <MappingFragment StoreEntitySet="TipoMovimiento">
+          <ScalarProperty Name="chr_tipocodigo" ColumnName="chr_tipocodigo" />
+          <ScalarProperty Name="vch_tipodescripcion" ColumnName="vch_tipodescripcion" />
+          <ScalarProperty Name="vch_tipoaccion" ColumnName="vch_tipoaccion" />
+          <ScalarProperty Name="vch_tipoestado" ColumnName="vch_tipoestado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
